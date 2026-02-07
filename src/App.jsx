@@ -1,9 +1,17 @@
 import './App.css'
 
 function App() {
+  let title = '강남 우동 맛집';
+
   return (
-    <div></div>
+    <div className='App'>
+      <div className='black-nav'>
+        <h4 style={{ color: 'red', fontSize: '16px' }}>{title}</h4>
+      </div>
+      <h4>블로그 글 제목</h4>
+    </div>
   )
 }
+
 
 export default App
